@@ -11,4 +11,10 @@ fn main() {
 
     // Named Arguments
     println!("{name} likes to play {activity}", name = "Jonh", activity="Baseball");
+
+    // Placeholder traits
+    println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10);
+
+    // Placeholder for debug trait
+    println!("{:?}", (12, true, "hello"));
 }
